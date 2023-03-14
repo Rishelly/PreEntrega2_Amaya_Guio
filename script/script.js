@@ -51,3 +51,7 @@ carrito.forEach((el) => {
 
 console.log(cliente1, carrito, total)
 alert("El monto total a pagar de su carrito es: $" + total)
+
+window.addEventListener ("load", function(){
+    cliente()
+})
